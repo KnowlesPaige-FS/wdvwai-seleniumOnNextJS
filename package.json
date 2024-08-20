@@ -4,16 +4,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "demoTest": "node demo.test.js",
-    "demoExternalTest": "node external.test.js"
+    "test": "test.js"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "selenium-webdriver": "^4.8.1"
+    "selenium-webdriver": "^4.23.0"
   },
   "devDependencies": {
-    "chromedriver": "^110.0.0"
+    "chromedriver": "^127.0.3"
   }
 }
